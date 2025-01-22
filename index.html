@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasty Treat - Food, Drinks and Snacks</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS Files Linking -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="assets/css/light-gallery.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand logo"><img src="assets/images/restaurant-logo.png" alt="Restaurant Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us </a>
+                    </li>
+                </ul>
+                <div class="header-icon">
+                    <a class="search-icon" href="#"><i class="icofont-search-1"></i></a>
+                    <a class="shopping-cart" href="#"><i class="icofont-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Popup search bar -->
+<div class="popup-search-bar">
+    <span class="search-close"><i class="icofont-close"></i></span>
+    <form action="" class="search-form">
+        <input type="text" placeholder="Type Something...">
+        <button class="submit" type="submit"><i class="icofont-search"></i></button>
+    </form>
+</div>
+
+<!-- off canvas mini cart -->
+<div class="off-canvas-mini-cart">
+    <div class="cart-header">
+        <h4 class="cart-title">SHOPPING CART</h4>
+        <span class="menu-close d-flex"><i class="icofont-close"></i></span>
+    </div>
+
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="final-checkout">
+        <a href="#" class="btn">Checkout</a>
+    </div>
+</div>
+<div class="off-canvas-overly"></div>
+
+<!-- Banner -->
+<section class="banner banner-overly">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="chefs-img"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="banner-content">
+                    <div class="home-banner-text">
+                        <h1>We Serve the best, Fresh Food to you !</h1>
+                        <p>Historically, humans secured food through two methods: hunting and gathering and agriculture, which gave modern humans a mainly omnivorous diet.</p>
+                    </div>
+                    <div class="banner-buttons">
+                        <a href="#" class="rest-button">Learn More</a>
+                        <a href="#" class="rest-button">Reserve a Table</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Booking -->
+<section class="booking-section external-shape">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 reserve-form-wrapper">
+                <form action="">
+                    <h4 class="text-center">Book a Table</h4>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="date">Date</label>
+                            <input type="text" id="date"/>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="time">Time</label>
+                            <input type="text" id="time"/>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="people">People</label>
+                            <input type="text" id="people"/>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Table Type</label>
+                            <select class="form-control">
+                                <option data-display="Select">Region/State</option>
+                                <option value="1">Bangladesh</option>
+                                <option value="2">India</option>
+                                <option value="3">Pakistan</option>
+                                <option value="4">China</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="rest-button d-block" id="search">Search a Table</button>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <div class="booking-table">
+                    <img src="assets/images/table-booking.png" alt="Table Booking">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Features -->
+<section class="features section-overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center text-light section-title">
+                <h2>Our Speciality</h2>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="assets/images/location.png" alt="Location">
+                            <div class="text">
+                                <h4>Great Location</h4>
+                                <p>Lorem Ipsum is simply dummy text of the</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="assets/images/home-made.png" alt="Location">
+                            <div class="text">
+                                <h4>Home Made</h4>
+                                <p>Lorem Ipsum is simply dummy text of the</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="assets/images/nature-friendly.png" alt="Location">
+                            <div class="text">
+                                <h4>Nature Friendly</h4>
+                                <p>Lorem Ipsum is simply dummy text of the</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="assets/images/fresh-food-png.png" alt="Location">
+                            <div class="text">
+                                <h4>Fresh Food</h4>
+                                <p>Lorem Ipsum is simply dummy text of the</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="assets/images/location.png" alt="Location">
+                        <div class="text">
+                            <h4>Great Location</h4>
+                            <p>Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="assets/images/location.png" alt="Location">
+                        <div class="text">
+                            <h4>Great Location</h4>
+                            <p>Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="assets/images/location.png" alt="Location">
+                        <div class="text">
+                            <h4>Great Location</h4>
+                            <p>Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="assets/images/location.png" alt="Location">
+                        <div class="text">
+                            <h4>Great Location</h4>
+                            <p>Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Menu Section -->
+<section class="menu-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title title-black">
+                <h2>Our Best Menu</h2>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-9">
+                <div class="menu-filter-items">
+                    <!--                    <a  data-filter="all">Show All</a>-->
+                    <a class="mixitup-control-active" data-filter=".burgers">Burgers</a>
+                    <a data-filter=".pizza">Pizza</a>
+                    <a data-filter=".desert">Desert</a>
+                    <a data-filter=".drink">Drink</a>
+                    <a data-filter=".pasta">Pasta</a>
+                </div>
+            </div>
+            <div class="col-md-3 text-right">
+                <div class="mixitup-all-btn">
+                    <a href="#">View All</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center menu-items">
+            <div class="col-md-3 mix burgers pizza drink">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-1.1.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mix pizza pasta drink burgers desert">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-2.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mix pizza pasta burgers">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-3.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mix pizza drink burger desert">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-4.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Us -->
+<section class="about-us section-overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title">
+                <h2 class="text-white">About Us</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ab-img-wrapper">
+                        <img src="assets/images/about-us-img.png" alt="About Us Image">
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <div class="text-wrapper">
+                        <h4>We Are the Best in Cooking and our Chef are World class</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab natus repellat repudiandae sunt voluptatem. Animi fugit nam perferendis quis totam. Consectetur neque provident sunt tenetur voluptate voluptates! Deserunt dolores enim fuga illum magnam neque quis, suscipit? Harum labore sed voluptatem?</p>
+                    </div>
+                    <div>
+                        <a href="#" class="learn-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Expert Chefs -->
+<section class="expert-chefs external-shape">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title title-black">
+                <h2>Our Experts Chefs</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row wrapper">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <a href="#" class="shape-img-wrap"><img src="assets/images/expert-shape-1.png" class="img-fluid" alt="Expert 1"></a>
+                                <h4><a href="">Ketty Perry</a></h4>
+                                <p>Led Chef</p>
+                                <p class="mt-3">Exp: 20 years</p>
+                                <div class="social-icon">
+                                    <a href="#"><i class="icofont-facebook"></i></a>
+                                    <a href="#"><i class="icofont-twitter"></i></a>
+                                    <a href="#"><i class="icofont-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <a href="#" class="shape-img-wrap"><img src="assets/images/expert-shape-2.png" class="img-fluid" alt="Expert 2"></a>
+                                <h4><a href="">Edith Michal</a></h4>
+                                <p>Led Chef</p>
+                                <p class="mt-3">Exp: 20 years</p>
+                                <div class="social-icon">
+                                    <a href="#"><i class="icofont-facebook"></i></a>
+                                    <a href="#"><i class="icofont-twitter"></i></a>
+                                    <a href="#"><i class="icofont-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <a href="#" class="shape-img-wrap"><img src="assets/images/expert-shape-3.png" class="img-fluid" alt="Expert 3"></a>
+                                <h4><a href="">Wellington</a></h4>
+                                <p>Led Chef</p>
+                                <p class="mt-3">Exp: 20 years</p>
+                                <div class="social-icon">
+                                    <a href="#"><i class="icofont-facebook"></i></a>
+                                    <a href="#"><i class="icofont-twitter"></i></a>
+                                    <a href="#"><i class="icofont-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <a href="#" class="shape-img-wrap"><img src="assets/images/expert-shape-4.png" class="img-fluid" alt="Expert 4"></a>
+                                <h4><a href="">Kate</a></h4>
+                                <p>Led Chef</p>
+                                <p class="mt-3">Exp: 20 years</p>
+                                <div class="social-icon">
+                                    <a href="#"><i class="icofont-facebook"></i></a>
+                                    <a href="#"><i class="icofont-twitter"></i></a>
+                                    <a href="#"><i class="icofont-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 align-self-center">
+                <div class="chefs-img-wrapper">
+                    <img src="assets/images/chefs.svg" alt="Chefs">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonial -->
+<section class="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center text-light section-title">
+                <h2>Our Happy Customers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="customer-img-wrap">
+                    <img src="assets/images/customer-img.png" alt="Happy Customer">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="test-bg pd-30">
+                <div class="customer-carousel owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="testimonial-item text-center">
+                            <div class="img-thumb text-center">
+                                <img src="assets/images/customer-1.png" alt="Customer">
+                            </div>
+                            <h5>Ketty Holland </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <div class="review">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-item text-center">
+                            <div class="img-thumb text-center">
+                                <img src="assets/images/customer-1.png" alt="Customer">
+                            </div>
+                            <h5>Ketty Holland </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <div class="review">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-item text-center">
+                            <div class="img-thumb text-center">
+                                <img src="assets/images/customer-1.png" alt="Customer">
+                            </div>
+                            <h5>Ketty Holland </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <div class="review">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-item text-center">
+                            <div class="img-thumb text-center">
+                                <img src="assets/images/customer-1.png" alt="Customer">
+                            </div>
+                            <h5>Ketty Holland </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <div class="review">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-item text-center">
+                            <div class="img-thumb text-center">
+                                <img src="assets/images/customer-1.png" alt="Customer">
+                            </div>
+                            <h5>Ketty Holland </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <div class="review">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-item text-center">
+                            <div class="img-thumb text-center">
+                                <img src="assets/images/customer-1.png" alt="Customer">
+                            </div>
+                            <h5>Ketty Holland </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <div class="review">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-item text-center">
+                            <div class="img-thumb text-center">
+                                <img src="assets/images/customer-1.png" alt="Customer">
+                            </div>
+                            <h5>Ketty Holland </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <div class="review">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Latest Food -->
+<section class="latest food">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title title-black">
+                <h2>Our Latest News</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="card post-item">
+                    <a class="post-image" href="#"><img src="assets/images/food-item-1.png" alt="Food 1"></a>
+                    <div class="post-info">
+                        <div class="post-meta-data">
+                            <a class="meta-item" href="#"><i class="icofont-address-book"></i><span>Abbe Nobleman</span></a>
+                            <time class="meta-item"><i class="icofont-calendar"></i><span>24 Dec 2019</span></time>
+                        </div>
+                        <div class="post-details">
+                            <h4><a href="#">How to Make Great Food and Testy</a></h4>
+                            <p>Food is any substance consumed to provide nutritional support for an organism...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card post-item">
+                    <a class="post-image" href="#"><img src="assets/images/food-item-2.png" alt="Food 1"></a>
+                    <div class="post-info">
+                        <div class="post-meta-data">
+                            <a class="meta-item" href="#"><i class="icofont-address-book"></i><span>Abbe Nobleman</span></a>
+                            <time class="meta-item"><i class="icofont-calendar"></i><span>24 Dec 2019</span></time>
+                        </div>
+                        <div class="post-details">
+                            <h4><a href="#">How to Make Great Food and Testy</a></h4>
+                            <p>Food is any substance consumed to provide nutritional support for an organism...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card post-item">
+                    <a class="post-image" href="#"><img src="assets/images/food-item-3.png" alt="Food 1"></a>
+                    <div class="post-info">
+                        <div class="post-meta-data">
+                            <a class="meta-item" href="#"><i class="icofont-address-book"></i><span>Abbe Nobleman</span></a>
+                            <time class="meta-item"><i class="icofont-calendar"></i><span>24 Dec 2019</span></time>
+                        </div>
+                        <div class="post-details">
+                            <h4><a href="#">How to Make Great Food and Testy</a></h4>
+                            <p>Food is any substance consumed to provide nutritional support for an organism...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seeAll-btn text-center">
+                <a href="#">See All</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Order -->
+<section class="order section-overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <div class="order-food-img">
+                    <img src="assets/images/order-img.png" alt="Order Food">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="short-title text-white">
+                    <h2>What We Do</h2>
+                    <p>In Western countries, most mid- to high-range restaurants serve alcoholic beverages such as beer and wine. Some restaurants serve all the major meals, such as breakfast, lunch, and dinner.</p>
+                </div>
+                <div class="achievements">
+                    <h4>Our Best Achievements</h4>
+                    <div class="achieve">
+                        <div class="achieve-name">Providing Hygienic Food</div>
+                        <div class="achieve-bar">
+                            <div class="achieve-per bar-1 load"><span>89%</span></div>
+                        </div>
+                    </div>
+                    <div class="achieve">
+                        <div class="achieve-name">Customer Support</div>
+                        <div class="achieve-bar">
+                            <div class="achieve-per bar-2 load"><span>100%</span></div>
+                        </div>
+                    </div>
+                    <div class="achieve">
+                        <div class="achieve-name">Skilled Chef</div>
+                        <div class="achieve-bar">
+                            <div class="achieve-per bar-3 load"><span>79%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Schedule -->
+<section class="schedule-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="welcoming-shape">
+                    <img src="assets/images/schedule-shape.png" alt="Schedule Shape">
+                    <h2 class="text-center">WELCOME</h2>
+                </div>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>10:00 AM - 2:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>7:00 AM - 9:00 PM</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>CLOSE</td>
+                    </tr>
+                    </tfoot>
+                </table>
+                <div class="schedule-shape">
+                    <img src="assets/images/schedule-shape.png" alt="Schedule Shape">
+                </div>
+            </div>
+            <div class="col-md-6 align-self-center">
+                <div class="opening-banner">
+                    <img src="assets/images/open-close-img.png" alt="Open Close">
+                </div>
+                <div class="opening-banner-title">
+                    <h2>Opening Hours</h2>
+                    <p>We are available on the time bellow, you can come or order food in this time, We are here to help.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer-section section-overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-img">
+                    <a href="index.html"><img src="assets/images/footer.logo.png" alt="Footer Logo"></a>
+                </div>
+                <div class="short-text text-white">
+                    <p class="text-white">We will Provide best, fresh. Hygienic Food to you We will Provide best, fresh. Hyginic Food to you. Order online and Get food.</p>
+                    <div class="copyright-text">Copyright &copy; 2019 Pluginbazar</div>
+                </div>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>SUPPORT</h5>
+                <ul class="list-unstyled footer-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Food Tutorial</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>Gallery</h5>
+                <div class="photo-gallery">
+
+                    <div data-src="assets/images/burger-king-1.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-1.jpg">
+                            <img src="assets/images/burger-king-1.jpg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-2.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-2.jpg">
+                            <img src="assets/images/burger-king-2.jpg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-3.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-3.jpg">
+                            <img src="assets/images/burger-king-3.jpg" alt="Image 3">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-4.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-4.jpg">
+                            <img src="assets/images/burger-king-4.jpg" alt="Image 6">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-5.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-5.jpg">
+                            <img src="assets/images/burger-king-5.jpg" alt="Image 5">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-1.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-1.jpg">
+                            <img src="assets/images/burger-king-1.jpg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-2.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-2.jpg">
+                            <img src="assets/images/burger-king-2.jpg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-3.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-3.jpg">
+                            <img src="assets/images/burger-king-3.jpg" alt="Image 3">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-4.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-4.jpg">
+                            <img src="assets/images/burger-king-4.jpg" alt="Image 6">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>SUBSCRIBE</h5>
+                <p class="subs-text">Subscribe to our newsletter and get 20% Discount in first order.</p>
+                <form class="newsletter-form">
+                    <input class="input-field" type="email" placeholder="email@info.com" name="Email" autocomplete="off">
+                    <button type="submit"><i class="icofont-location-arrow"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                    <a href="#"><i class="icofont-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/mixitup.min.js"></script>
+<script src="assets/js/jquery.nice-select.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/jquery.timepicker.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/lightgallery.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

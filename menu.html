@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS Files Linking -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="assets/css/light-gallery.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand logo"><img src="assets/images/restaurant-logo.png" alt="Restaurant Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us </a>
+                    </li>
+                </ul>
+                <div class="header-icon">
+                    <a class="search-icon" href="#"><i class="icofont-search-1"></i></a>
+                    <a class="shopping-cart" href="#"><i class="icofont-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Popup search bar -->
+<div class="popup-search-bar">
+    <span class="search-close"><i class="icofont-close"></i></span>
+    <form action="" class="search-form">
+        <input type="text" placeholder="Type Something...">
+        <button class="submit" type="submit"><i class="icofont-search"></i></button>
+    </form>
+</div>
+<!-- off canvas mini cart -->
+<div class="off-canvas-mini-cart">
+    <div class="cart-header">
+        <h4 class="cart-title">SHOPPING CART</h4>
+        <span class="menu-close d-flex"><i class="icofont-close"></i></span>
+    </div>
+
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="final-checkout">
+        <a href="#">Checkout</a>
+    </div>
+</div>
+<div class="off-canvas-overly"></div>
+
+<!-- Menu Banner -->
+<section class="menu-banner banner-overly">
+    <span class="b_shape_2 item-bounce"><img src="assets/images/shape_2.png" style="width: 70px;" alt=""></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="banner-text">
+                    <h1>Our Best Menu</h1>
+                    <p class="breadcrumb-menu"><a href="index.html">Home</a> / Menu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Menu Section -->
+<section class="menu-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center section-title title-black">
+                <h2>Menu</h2>
+            </div>
+        </div>
+
+        <div class="row menu-items-header">
+            <div class="col-md-9">
+                <div class="menu-filter-items">
+                    <a class="mixitup-control-active" data-filter="all">Show All</a>
+                    <a data-filter=".burgers">Burgers</a>
+                    <a data-filter=".pizza">Pizza</a>
+                    <a data-filter=".desert">Desert</a>
+                    <a data-filter=".drink">Drink</a>
+                    <a data-filter=".pasta">Pasta</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="menu-search-box">
+                    <input type="text" class="input-field" placeholder="Search">
+                    <i class="icofont-search-1"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center menu-items">
+            <div class="col-md-3 mix burgers pizza drink">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-1.1.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mix pizza pasta drink burgers desert">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-2.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mix pizza pasta burgers">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-3.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mix pizza drink burger desert">
+                <a href="#"><img class="img-fluid menu-img" src="assets/images/burger-4.png" alt="pizza item"></a>
+                <span class="price">5.25</span>
+                <h4><a href="#">Mutton Burger</a></h4>
+                <div class="menu-item-icons">
+                    <a href="cart.html"><i class="icofont-shopping-cart"></i></a>
+                    <a href="#"><i class="icofont-free-delivery"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer-section section-overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-img">
+                    <a href="index.html"><img src="assets/images/footer.logo.png" alt="Footer Logo"></a>
+                </div>
+                <div class="short-text text-white">
+                    <p class="text-white">We will Provide best, fresh. Hyginic Food to you We will Provide best, fresh. Hyginic Food to you. Order online and Get food.</p>
+                    <div class="copyright-text">Copyright &copy; 2019 Pluginbazar</div>
+                </div>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>SUPPORT</h5>
+                <ul class="list-unstyled footer-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Food Tutorial</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>Gallery</h5>
+                <div class="photo-gallery">
+
+                    <div data-src="assets/images/burger-king-1.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-1.jpg">
+                            <img src="assets/images/burger-king-1.jpg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-2.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-2.jpg">
+                            <img src="assets/images/burger-king-2.jpg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-3.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-3.jpg">
+                            <img src="assets/images/burger-king-3.jpg" alt="Image 3">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-4.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-4.jpg">
+                            <img src="assets/images/burger-king-4.jpg" alt="Image 6">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-5.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-5.jpg">
+                            <img src="assets/images/burger-king-5.jpg" alt="Image 5">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-1.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-1.jpg">
+                            <img src="assets/images/burger-king-1.jpg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-2.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-2.jpg">
+                            <img src="assets/images/burger-king-2.jpg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-3.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-3.jpg">
+                            <img src="assets/images/burger-king-3.jpg" alt="Image 3">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-4.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-4.jpg">
+                            <img src="assets/images/burger-king-4.jpg" alt="Image 6">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>SUBSCRIBE</h5>
+                <p class="subs-text">Subscribe to our newsletter and get 20% Discount in first order.</p>
+                <form class="newsletter-form">
+                    <input class="input-field" type="email" placeholder="email@info.com" name="Email" autocomplete="off">
+                    <button type="submit"><i class="icofont-location-arrow"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                    <a href="#"><i class="icofont-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/mixitup.min.js"></script>
+<script src="assets/js/jquery.nice-select.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/jquery.timepicker.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/lightgallery.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

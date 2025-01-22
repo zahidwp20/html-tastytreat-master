@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS Files Linking -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="assets/css/light-gallery.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand logo"><img src="assets/images/restaurant-logo.png" alt="Restaurant Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us </a>
+                    </li>
+                </ul>
+                <div class="header-icon">
+                    <a class="search-icon" href="#"><i class="icofont-search-1"></i></a>
+                    <a class="shopping-cart" href="#"><i class="icofont-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<!-- Popup search bar -->
+<div class="popup-search-bar">
+    <span class="search-close"><i class="icofont-close"></i></span>
+    <form action="" class="search-form">
+        <input type="text" placeholder="Type Something...">
+        <button class="submit" type="submit"><i class="icofont-search"></i></button>
+    </form>
+</div>
+
+<!-- off canvas mini cart -->
+<div class="off-canvas-mini-cart">
+    <div class="cart-header">
+        <h4 class="cart-title">SHOPPING CART</h4>
+        <span class="menu-close d-flex"><i class="icofont-close"></i></span>
+    </div>
+
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="single-mini-cart-item">
+        <img src="assets/images/order-food-1.png" alt="Order Food">
+        <div class="mini-content">
+            <div class="mini-cart-title">
+                <p>Mutton Burger with Extra Cizz & Onion</p>
+                <p><a href="#"><i class="icofont-trash"></i></a></p>
+            </div>
+            <div class="pricing-table">
+                <div class="single-price">
+                    <span>Price : $ 75<i class="icofont-close"></i></span>
+                    <input type="number" value="5">
+                </div>
+                <div class="price-calc"><span>$ 375</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="final-checkout">
+        <a href="#">Checkout</a>
+    </div>
+</div>
+
+<div class="off-canvas-overly"></div>
+
+<!--  Checkout Banner -->
+<section class="checkout-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="banner-text">
+                    <h1>Check Out</h1>
+                    <p class="breadcrumb-menu"><a href="index.html">Home</a> / Menu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Checkout -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form action="" class="checkout-form">
+                    <div class="form-control-regi">
+                        <p><small class="register-text">Returning Customer? </small></p>
+                        <a class="register-link" href="">Login</a>
+                    </div>
+                    <div class="checkout-form-wrapper">
+                        <h4>Your Personal Details</h4>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="number" class="form-control" placeholder="Number">
+                            </div>
+                        </div>
+                        <h4>Your Address</h4>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Address 1">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Address 2">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <select class="form-control" name="type">
+                                    <option data-display="Select">Country</option>
+                                    <option value="1">Bangladesh</option>
+                                    <option value="2">India</option>
+                                    <option value="3">Pakistan</option>
+                                    <option value="4">China</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <select class="form-control">
+                                    <option data-display="Select">Region/State</option>
+                                    <option value="1">Bangladesh</option>
+                                    <option value="2">India</option>
+                                    <option value="3">Pakistan</option>
+                                    <option value="4">China</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="City">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Post Code">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 ">
+                <div class="menu-wrapper">
+                    <form action="">
+                        <div class="single-menu">
+                            <img src="assets/images/order-food-1.png" alt="Order Food">
+                            <div class="menu-content">
+                                <div class="text-btn">
+                                    <p>Mutton Burger with Extra Cizz & Onion</p>
+                                    <button type="button">remove</button>
+                                </div>
+                                <div class="pricing-table">
+                                    <div class="single-price">
+                                        <span>Price : $ 75<i class="icofont-close"></i></span>
+                                        <input type="number" value="5">
+                                    </div>
+                                    <div class="price-calc"><span>$ 375</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            <img src="assets/images/order-food-2.png" alt="Order Food">
+                            <div class="menu-content">
+                                <div class="text-btn">
+                                    <p>Mutton Burger with Extra Cizz & Onion</p>
+                                    <button type="button">remove</button>
+                                </div>
+                                <div class="pricing-table">
+                                    <div class="single-price">
+                                        <span>Price : $ 75<i class="icofont-close"></i></span>
+                                        <input type="number" value="5">
+                                    </div>
+                                    <div class="price-calc"><span>$ 375</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            <img src="assets/images/order-food-3.png" alt="Order Food">
+                            <div class="menu-content">
+                                <div class="text-btn">
+                                    <p>Mutton Burger with Extra Cizz & Onion</p>
+                                    <button type="button">remove</button>
+                                </div>
+                                <div class="pricing-table">
+                                    <div class="single-price">
+                                        <span>Price : $ 75<i class="icofont-close"></i></span>
+                                        <input type="number" value="5">
+                                    </div>
+                                    <div class="price-calc"><span>$ 375</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="total-price">
+                            <p>Total Price<span>$ 525</span></p>
+                        </div>
+                        <div class="payment-method">
+                            <h6>Please select the preferred payment method to use on this order.</h6>
+                            <div class="payment-form">
+                                <p>
+                                    <input type="radio" id="method-1" name="radio-group" checked>
+                                    <label for="method-1">PayPal Express Checkout</label>
+                                </p>
+                                <p>
+                                    <input type="radio" id="method-2" name="radio-group">
+                                    <label for="method-2">Cash on Delivery</label>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="comment-box">
+                            <label>Add Comments About Your Order</label>
+                            <textarea class="form-control" id="message" placeholder="Your Comment" rows="6" ></textarea>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" name="checkbox" required checked>
+                            <p>I have read and agree to the <a href="#">Terms & Conditions</a></p>
+                        </div>
+                        <div class="final-checkout">
+                            <a href="#">Checkout</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer-section section-overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-img">
+                    <a href="index.html"><img src="assets/images/footer.logo.png" alt="Footer Logo"></a>
+                </div>
+                <div class="short-text text-white">
+                    <p class="text-white">We will Provide best, fresh. Hyginic Food to you We will Provide best, fresh. Hyginic Food to you. Order online and Get food.</p>
+                    <div class="copyright-text">Copyright &copy; 2019 Pluginbazar</div>
+                </div>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>SUPPORT</h5>
+                <ul class="list-unstyled footer-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Food Tutorial</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>Gallery</h5>
+                <div class="photo-gallery">
+
+                    <div data-src="assets/images/burger-king-1.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-1.jpg">
+                            <img src="assets/images/burger-king-1.jpg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-2.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-2.jpg">
+                            <img src="assets/images/burger-king-2.jpg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-3.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-3.jpg">
+                            <img src="assets/images/burger-king-3.jpg" alt="Image 3">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-4.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-4.jpg">
+                            <img src="assets/images/burger-king-4.jpg" alt="Image 6">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-5.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-5.jpg">
+                            <img src="assets/images/burger-king-5.jpg" alt="Image 5">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-1.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-1.jpg">
+                            <img src="assets/images/burger-king-1.jpg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-2.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-2.jpg">
+                            <img src="assets/images/burger-king-2.jpg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-3.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-3.jpg">
+                            <img src="assets/images/burger-king-3.jpg" alt="Image 3">
+                        </a>
+                    </div>
+                    <div data-src="assets/images/burger-king-4.jpg" data-sub-html="Sub HTML">
+                        <a href="assets/images/burger-king-4.jpg">
+                            <img src="assets/images/burger-king-4.jpg" alt="Image 6">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-white">
+                <h5>SUBSCRIBE</h5>
+                <p class="subs-text">Subscribe to our newsletter and get 20% Discount in first order.</p>
+                <form class="newsletter-form">
+                    <input class="input-field" type="email" placeholder="email@info.com" name="Email" autocomplete="off">
+                    <button type="submit"><i class="icofont-location-arrow"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                    <a href="#"><i class="icofont-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/mixitup.min.js"></script>
+<script src="assets/js/jquery.nice-select.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/jquery.timepicker.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/lightgallery.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
